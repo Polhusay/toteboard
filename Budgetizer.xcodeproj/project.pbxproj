@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE26426168ABE6200C21A48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE26425168ABE6200C21A48 /* UIKit.framework */; };
+		CEE26428168ABE6200C21A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE26427168ABE6200C21A48 /* Foundation.framework */; };
+		CEE2642A168ABE6200C21A48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE26429168ABE6200C21A48 /* CoreGraphics.framework */; };
+		CEE2642C168ABE6200C21A48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2642B168ABE6200C21A48 /* CoreData.framework */; };
+		CEE26432168ABE6200C21A48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE26430168ABE6200C21A48 /* InfoPlist.strings */; };
+		CEE26434168ABE6200C21A48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE26433168ABE6200C21A48 /* main.m */; };
+		CEE26438168ABE6200C21A48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE26437168ABE6200C21A48 /* AppDelegate.m */; };
+		CEE2643B168ABE6200C21A48 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE26439168ABE6200C21A48 /* MainStoryboard_iPhone.storyboard */; };
+		CEE2643E168ABE6200C21A48 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2643C168ABE6200C21A48 /* MainStoryboard_iPad.storyboard */; };
+		CEE26441168ABE6200C21A48 /* Budgetizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE2643F168ABE6200C21A48 /* Budgetizer.xcdatamodeld */; };
+		CEE26444168ABE6200C21A48 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE26443168ABE6200C21A48 /* MasterViewController.m */; };
+		CEE26447168ABE6200C21A48 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE26446168ABE6200C21A48 /* DetailViewController.m */; };
+		CEE2644F168ABE6200C21A48 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2644E168ABE6200C21A48 /* SenTestingKit.framework */; };
+		CEE26450168ABE6200C21A48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE26425168ABE6200C21A48 /* UIKit.framework */; };
+		CEE26451168ABE6200C21A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE26427168ABE6200C21A48 /* Foundation.framework */; };
+		CEE26452168ABE6200C21A48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2642B168ABE6200C21A48 /* CoreData.framework */; };
+		CEE2645A168ABE6200C21A48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE26458168ABE6200C21A48 /* InfoPlist.strings */; };
+		CEE2645D168ABE6200C21A48 /* BudgetizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645C168ABE6200C21A48 /* BudgetizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE26453168ABE6200C21A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE26418168ABE6200C21A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE26420168ABE6200C21A48;
+			remoteInfo = Budgetizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE26421168ABE6200C21A48 /* Budgetizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgetizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE26425168ABE6200C21A48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE26427168ABE6200C21A48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE26429168ABE6200C21A48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE2642B168ABE6200C21A48 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEE2642F168ABE6200C21A48 /* Budgetizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Budgetizer-Info.plist"; sourceTree = "<group>"; };
+		CEE26431168ABE6200C21A48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE26433168ABE6200C21A48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE26435168ABE6200C21A48 /* Budgetizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Budgetizer-Prefix.pch"; sourceTree = "<group>"; };
+		CEE26436168ABE6200C21A48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE26437168ABE6200C21A48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE2643A168ABE6200C21A48 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CEE2643D168ABE6200C21A48 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CEE26440168ABE6200C21A48 /* Budgetizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budgetizer.xcdatamodel; sourceTree = "<group>"; };
+		CEE26442168ABE6200C21A48 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CEE26443168ABE6200C21A48 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CEE26445168ABE6200C21A48 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEE26446168ABE6200C21A48 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEE2644D168ABE6200C21A48 /* BudgetizerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetizerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE2644E168ABE6200C21A48 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEE26457168ABE6200C21A48 /* BudgetizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BudgetizerTests-Info.plist"; sourceTree = "<group>"; };
+		CEE26459168ABE6200C21A48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE2645B168ABE6200C21A48 /* BudgetizerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BudgetizerTests.h; sourceTree = "<group>"; };
+		CEE2645C168ABE6200C21A48 /* BudgetizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudgetizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE2641E168ABE6200C21A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE26426168ABE6200C21A48 /* UIKit.framework in Frameworks */,
+				CEE26428168ABE6200C21A48 /* Foundation.framework in Frameworks */,
+				CEE2642A168ABE6200C21A48 /* CoreGraphics.framework in Frameworks */,
+				CEE2642C168ABE6200C21A48 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE26449168ABE6200C21A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2644F168ABE6200C21A48 /* SenTestingKit.framework in Frameworks */,
+				CEE26450168ABE6200C21A48 /* UIKit.framework in Frameworks */,
+				CEE26451168ABE6200C21A48 /* Foundation.framework in Frameworks */,
+				CEE26452168ABE6200C21A48 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE26416168ABE6200C21A48 = {
+			isa = PBXGroup;
+			children = (
+				CEE2642D168ABE6200C21A48 /* Budgetizer */,
+				CEE26455168ABE6200C21A48 /* BudgetizerTests */,
+				CEE26424168ABE6200C21A48 /* Frameworks */,
+				CEE26422168ABE6200C21A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE26422168ABE6200C21A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE26421168ABE6200C21A48 /* Budgetizer.app */,
+				CEE2644D168ABE6200C21A48 /* BudgetizerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE26424168ABE6200C21A48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE26425168ABE6200C21A48 /* UIKit.framework */,
+				CEE26427168ABE6200C21A48 /* Foundation.framework */,
+				CEE26429168ABE6200C21A48 /* CoreGraphics.framework */,
+				CEE2642B168ABE6200C21A48 /* CoreData.framework */,
+				CEE2644E168ABE6200C21A48 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE2642D168ABE6200C21A48 /* Budgetizer */ = {
+			isa = PBXGroup;
+			children = (
+				CEE26436168ABE6200C21A48 /* AppDelegate.h */,
+				CEE26437168ABE6200C21A48 /* AppDelegate.m */,
+				CEE26439168ABE6200C21A48 /* MainStoryboard_iPhone.storyboard */,
+				CEE2643C168ABE6200C21A48 /* MainStoryboard_iPad.storyboard */,
+				CEE26442168ABE6200C21A48 /* MasterViewController.h */,
+				CEE26443168ABE6200C21A48 /* MasterViewController.m */,
+				CEE26445168ABE6200C21A48 /* DetailViewController.h */,
+				CEE26446168ABE6200C21A48 /* DetailViewController.m */,
+				CEE2643F168ABE6200C21A48 /* Budgetizer.xcdatamodeld */,
+				CEE2642E168ABE6200C21A48 /* Supporting Files */,
+			);
+			path = Budgetizer;
+			sourceTree = "<group>";
+		};
+		CEE2642E168ABE6200C21A48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2642F168ABE6200C21A48 /* Budgetizer-Info.plist */,
+				CEE26430168ABE6200C21A48 /* InfoPlist.strings */,
+				CEE26433168ABE6200C21A48 /* main.m */,
+				CEE26435168ABE6200C21A48 /* Budgetizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE26455168ABE6200C21A48 /* BudgetizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2645B168ABE6200C21A48 /* BudgetizerTests.h */,
+				CEE2645C168ABE6200C21A48 /* BudgetizerTests.m */,
+				CEE26456168ABE6200C21A48 /* Supporting Files */,
+			);
+			path = BudgetizerTests;
+			sourceTree = "<group>";
+		};
+		CEE26456168ABE6200C21A48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE26457168ABE6200C21A48 /* BudgetizerTests-Info.plist */,
+				CEE26458168ABE6200C21A48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE26420168ABE6200C21A48 /* Budgetizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE26460168ABE6200C21A48 /* Build configuration list for PBXNativeTarget "Budgetizer" */;
+			buildPhases = (
+				CEE2641D168ABE6200C21A48 /* Sources */,
+				CEE2641E168ABE6200C21A48 /* Frameworks */,
+				CEE2641F168ABE6200C21A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Budgetizer;
+			productName = Budgetizer;
+			productReference = CEE26421168ABE6200C21A48 /* Budgetizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE2644C168ABE6200C21A48 /* BudgetizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE26463168ABE6200C21A48 /* Build configuration list for PBXNativeTarget "BudgetizerTests" */;
+			buildPhases = (
+				CEE26448168ABE6200C21A48 /* Sources */,
+				CEE26449168ABE6200C21A48 /* Frameworks */,
+				CEE2644A168ABE6200C21A48 /* Resources */,
+				CEE2644B168ABE6200C21A48 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE26454168ABE6200C21A48 /* PBXTargetDependency */,
+			);
+			name = BudgetizerTests;
+			productName = BudgetizerTests;
+			productReference = CEE2644D168ABE6200C21A48 /* BudgetizerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE26418168ABE6200C21A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = PER;
+			};
+			buildConfigurationList = CEE2641B168ABE6200C21A48 /* Build configuration list for PBXProject "Budgetizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE26416168ABE6200C21A48;
+			productRefGroup = CEE26422168ABE6200C21A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE26420168ABE6200C21A48 /* Budgetizer */,
+				CEE2644C168ABE6200C21A48 /* BudgetizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE2641F168ABE6200C21A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE26432168ABE6200C21A48 /* InfoPlist.strings in Resources */,
+				CEE2643B168ABE6200C21A48 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CEE2643E168ABE6200C21A48 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2644A168ABE6200C21A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2645A168ABE6200C21A48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEE2644B168ABE6200C21A48 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE2641D168ABE6200C21A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE26434168ABE6200C21A48 /* main.m in Sources */,
+				CEE26438168ABE6200C21A48 /* AppDelegate.m in Sources */,
+				CEE26441168ABE6200C21A48 /* Budgetizer.xcdatamodeld in Sources */,
+				CEE26444168ABE6200C21A48 /* MasterViewController.m in Sources */,
+				CEE26447168ABE6200C21A48 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE26448168ABE6200C21A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2645D168ABE6200C21A48 /* BudgetizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE26454168ABE6200C21A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE26420168ABE6200C21A48 /* Budgetizer */;
+			targetProxy = CEE26453168ABE6200C21A48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE26430168ABE6200C21A48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE26431168ABE6200C21A48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE26439168ABE6200C21A48 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2643A168ABE6200C21A48 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE2643C168ABE6200C21A48 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE2643D168ABE6200C21A48 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE26458168ABE6200C21A48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE26459168ABE6200C21A48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE2645E168ABE6200C21A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE2645F168ABE6200C21A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE26461168ABE6200C21A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Budgetizer/Budgetizer-Prefix.pch";
+				INFOPLIST_FILE = "Budgetizer/Budgetizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE26462168ABE6200C21A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Budgetizer/Budgetizer-Prefix.pch";
+				INFOPLIST_FILE = "Budgetizer/Budgetizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEE26464168ABE6200C21A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Budgetizer.app/Budgetizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Budgetizer/Budgetizer-Prefix.pch";
+				INFOPLIST_FILE = "BudgetizerTests/BudgetizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEE26465168ABE6200C21A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Budgetizer.app/Budgetizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Budgetizer/Budgetizer-Prefix.pch";
+				INFOPLIST_FILE = "BudgetizerTests/BudgetizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE2641B168ABE6200C21A48 /* Build configuration list for PBXProject "Budgetizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE2645E168ABE6200C21A48 /* Debug */,
+				CEE2645F168ABE6200C21A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE26460168ABE6200C21A48 /* Build configuration list for PBXNativeTarget "Budgetizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE26461168ABE6200C21A48 /* Debug */,
+				CEE26462168ABE6200C21A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEE26463168ABE6200C21A48 /* Build configuration list for PBXNativeTarget "BudgetizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE26464168ABE6200C21A48 /* Debug */,
+				CEE26465168ABE6200C21A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEE2643F168ABE6200C21A48 /* Budgetizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEE26440168ABE6200C21A48 /* Budgetizer.xcdatamodel */,
+			);
+			currentVersion = CEE26440168ABE6200C21A48 /* Budgetizer.xcdatamodel */;
+			path = Budgetizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEE26418168ABE6200C21A48 /* Project object */;
+}
